@@ -1,9 +1,8 @@
 # AI Based Intrusion Detection System (IDS)
 
 - Implementation of an **NLP-based Intrusion Detection System (IDS)** for binary classification of detected attack packets. 
-- This task won **1st place (과기정통부 장관상)** in the **Cybersecurity AI Big Data Challenge (November 2022)**, hosted by the **Ministry of Science and ICT**.
+- This task won **1st place (과기정통부 장관상)** in the Cybersecurity AI Big Data Challenge (November 2022).
 <br/>
-
 
 ## 📋 Task
 The primary task is to classify intrusion detection system (IDS) results into **attack packet** or **non-attack packet**, using a binary classification approach.
