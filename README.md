@@ -1,7 +1,7 @@
 # AI Based Intrusion Detection System (IDS)
 
 - Implementation of an **NLP-based Intrusion Detection System (IDS)** for binary classification of detected attack packets. 
-- This task won **1st place (과기정통부 장관상)** in the Cybersecurity AI Big Data Challenge (November 2022).
+- This task won **1st place (과기정통부 장관상)** in the Cybersecurity AI Big Data Challenge (Nov 2022).
 <br/>
 
 ## 📋 Task
@@ -9,7 +9,7 @@ The primary task is to classify intrusion detection system (IDS) results into **
 <br/>
 
 ## 🤖 Model
-- **Base Model**: RoBERTa
+- **Base Model**: RoBERTa (SecureBERT)
   - Fine-tuned on IDS-related binary classification data.
   - Leverages pre-trained language model capabilities for analyzing attack packet data.
 <br/>
@@ -76,11 +76,9 @@ git clone https://github.com/cv-lee/IDS-BERT.git
 <br/>
 
 ## 📄 Configuration
-The `config.json` file contains adjustable parameters for preprocessing, training, and inference. Key fields include:
 
 ```json
 {
-  "model_name": "roberta-base",
   "max_seq_length": 512,
   "batch_size": 16,
   "learning_rate": 1e-5,
